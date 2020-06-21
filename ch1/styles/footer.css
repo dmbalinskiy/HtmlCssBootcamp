@@ -1,0 +1,63 @@
+/*Here styles for footer will be places*/
+.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > .footer-wrapper {
+    width: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.footer > .footer-wrapper > .footer-image > img {
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+    /* opacity: 0.5; */
+}
+
+.footer > .footer-wrapper >.contacts {
+    display: flex;
+    align-items: baseline;
+    margin: 0px 0px 51px;
+}
+
+.footer > .footer-wrapper >.contacts :nth-child(n) {
+    margin: 0 19px;
+}
+
+.footer > .footer-wrapper >.contacts > .contact-hours {
+    font-size: 0.8em;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.footer > .footer-wrapper > .links-wrapper {
+    align-self: stretch;
+}
+
+.footer > .footer-wrapper > .social-wrapper {
+    font-size: 35px;
+    display: flex;
+    margin: 74px 0px 20px;
+}
+
+.footer > .footer-wrapper > .social-wrapper :nth-child(n) {
+    margin: 0 20px;
+    color: #cbcbcb;
+    transition: 1s color;
+}
+
+.footer > .footer-wrapper > .social-wrapper :nth-child(n):hover {
+    margin: 0 20px;
+    color: #cea135;
+}
+
+.footer > .footer-wrapper > .copyright {
+    font-size: 0.7em;
+    font-family: "Ubuntu Condensed", sans-serif;
+    margin-bottom: 10px;
+}

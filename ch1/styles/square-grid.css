@@ -1,0 +1,37 @@
+/*Square grid styles*/
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+}
+
+.square > .img-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+ .square > .img-wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 42px;
+}
+
+.square > .square-text-wrapper h1 {
+    color: #cea135;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Based Start Page</title>
+
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+    
+    <header>  
+        <ul id="nav-right">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><input type="button" id="sign-in" value="Sign in"/></li>
+        </ul>
+
+        <script type="text/javascript">
+            function focusIt(){
+                var searchBox = document.getElementById("search-box");
+                searchBox.focus();
+            }
+            onload = focusIt;
+        </script>
+
+    </header>
+
+
+    <div id="content">
+        <div id="logo">
+            <img src="logo.png" alt="Google logo" width="350">
+        </div>
+        <div id="search">
+            <input type="text" id="search-box" />
+        </div>
+
+        <div id="search-buttons">
+            <input type="button" class="button" value="Google Search"/>
+            <input type="button" class="button" value="I'm feeling lucky"/>
+        </div>
+    </div>
+
+
+    <footer>
+        <ul id="footer-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+        <ul id="footer-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
